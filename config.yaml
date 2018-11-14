@@ -1,0 +1,167 @@
+baseURL: https://cloudve.org/
+languageCode: en-us
+title: CloudVE Project
+theme: hugo-fresh
+
+params:
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    title: Cloud Virtual Environments. Deployed.
+    subtitle: Software libraries, tools, and services for deploying applications on multiple IaaS cloud providers.
+    buttontext: Give it a try
+    buttonlink: "https://launch.usegalaxy.org/"
+    # Hero image (from /images/___)
+    image: illustrations/worker.svg
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  # - title: About
+  #   url: /
+  - title: GitHub
+    url: https://github.com/CloudVE/
+  - title: Software
+    sublinks:
+    - title: CloudBridge
+      url: http://cloudbridge.cloudve.org/en/latest/
+    - title: CloudLaunch
+      url: https://launch.usegalaxy.org/
+    - title: CloudMan
+      url: https://github.com/galaxyproject/cloudman/tree/v2.0
+  # - title: Sign up
+  #   url: /
+  #   button: true
+  # sidebar:
+  #   # Logo (from /images/logos/___.svg)
+  #   logo: fresh-square
+  #   sections:
+  #   - title: User
+  #     icon: user
+  #     links:
+  #     - text: Profile
+  #       url: /
+  #     - text: Account
+  #       url: /
+  #     - text: Settings
+  #       url: /
+  #   - title: Messages
+  #     icon: envelope
+  #     links:
+  #     - text: Inbox
+  #       url: /
+  #     - text: Compose
+  #       url: /
+  #   - title: Images
+  #     icon: image
+  #     links:
+  #     - text: Library
+  #       url: /
+  #     - text: Upload
+  #       url: /
+  #   - title: Settings
+  #     icon: cog
+  #     links:
+  #     - text: User settings
+  #       url: /
+  #     - text: App settings
+  #       url: /
+  section1:
+    title: About
+    subtitle: >
+      CloudVE is an incubator project for developing software tailored for multi-cloud
+      computing. We are developing a suite to tools that allow applications to be
+      readily deployed to the most popular cloud providers: AWS, Azure, GCE, and OpenStack.
+      The software stack is based on Kubernetes and Helm for portability and robustness.
+    tiles:
+    - title: CloudBridge
+      icon: mouse-globe
+      text: A consistent interface to multiple IaaS clouds.
+      url: http://cloudbridge.cloudve.org/
+      buttonText: Documentation
+    - title: CloudLaunch
+      icon: laptop-cloud
+      text: An completely customizable cloud application launcher.
+      url: https://launch.usegalaxy.org/
+      buttonText: Try it
+    - title: CloudMan
+      icon: plug-cloud
+      text: Infrastrucutre manager for deployed applications.
+      url: https://github.com/galaxyproject/cloudman/tree/v2.0
+      buttonText: GitHub
+  section2:
+    title: Features
+    subtitle:
+    features:
+    - title: Assemble your own Virtual Lab
+      text: Compose your virtual lab from an extensive library of existing components, and weave and customize them together to suit your needs.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Powered by Kubernetes
+      text: Battle-tested container orchestration that makes it easy to port your apps to different platforms, with no lock-in to our framework.
+      icon: doc-sync
+    - title: Natively multi-cloud
+      text: Every piece of the CloudVE technology stack has been carefully chosen to be natively multi-cloud, with our own highly-tested abstraction layer powering IaaS abstraction.
+      icon: plug-cloud
+    - title: Scalable infrastructure
+      text: Every piece of the infrastructure has been designed to be independently scaled and managed. Sensible defaults with opportunity for complete customization.
+      icon: mobile-feed
+  # section3:
+  #   title: One platform
+  #   subtitle: To rule them all
+  #   image: illustrations/mockups/app-mockup.png
+  #   buttonText: Get started
+  #   buttonLink: "#"
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Irma Walters
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Accountant
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: HR Manager
+  #     img: 3
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/cloudve/
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://gitter.im/galaxyproject/FederatedGalaxy
+      icon: comments-o
+    bulmalogo: false
+    product:
+    - text: Discover features
+      link: /
+    - text: Why choose our product?
+      link: /
+    - text: Compare features
+      link: /
+    - text: Our roadmap
+      link: /
+    - text: Request features
+      link: /
+    docs:
+    - text: Get started
+      link: /
+    - text: User guides
+      link: /
+    - text: Admin guide
+      link: /
+    - text: Developers
+      link: /
+    blogroll:
+    - text: Latest news
+      link: /
+    - text: Tech articles
+      link: /
+    - text: Video blog
+      link: /
