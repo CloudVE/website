@@ -6,7 +6,9 @@ Hero styles
     padding-top: 6rem;
     padding-bottom: 6rem;
     .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Source Sans Pro', Arial, sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
     }
     .title {
         &.is-bold {
@@ -16,6 +18,7 @@ Hero styles
     .subtitle {
         &.is-muted {
             color: $muted-grey;
+            font-size: 22px;
         }
     }
 }

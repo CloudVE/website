@@ -1,12 +1,12 @@
-baseURL: https://cloudve.org/
+baseURL: http://cloudve.org/
 languageCode: en-us
 title: CloudVE Project
 theme: hugo-fresh
 
 params:
   font:
-    name: "Open Sans"
-    sizes: [400,600]
+    name: "Source Sans Pro"
+    sizes: [300,400,"400italic",600,700]
   hero:
     title: Cloud Virtual Environments. Deployed.
     subtitle: Software libraries, tools, and services for deploying applications on multiple IaaS cloud providers.
@@ -16,18 +16,20 @@ params:
     image: illustrations/worker.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  # - title: About
-  #   url: /
+  - title: About
+    url: /#about-section
+  - title: Features
+    url: /#features-section
   - title: GitHub
     url: https://github.com/CloudVE/
-  - title: Software
-    sublinks:
-    - title: CloudBridge
-      url: http://cloudbridge.cloudve.org/en/latest/
-    - title: CloudLaunch
-      url: https://launch.usegalaxy.org/
-    - title: CloudMan
-      url: https://github.com/galaxyproject/cloudman/tree/v2.0
+  # - title: Software
+  #   sublinks:
+  #   - title: CloudBridge
+  #     url: http://cloudbridge.cloudve.org/en/latest/
+  #   - title: CloudLaunch
+  #     url: https://launch.usegalaxy.org/
+  #   - title: CloudMan
+  #     url: https://github.com/galaxyproject/cloudman/tree/v2.0
   # - title: Sign up
   #   url: /
   #   button: true
@@ -69,7 +71,7 @@ params:
     title: About
     subtitle: >
       CloudVE is an incubator project for developing software tailored for multi-cloud
-      computing. We are developing a suite to tools that allow applications to be
+      computing. We are developing a suite of tools that allow applications to be
       readily deployed to the most popular cloud providers: AWS, Azure, GCE, and OpenStack.
       The software stack is based on Kubernetes and Helm for portability and robustness.
     tiles:

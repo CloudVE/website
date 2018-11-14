@@ -17,23 +17,24 @@ Section Styles
         height: 75vh !important;
     }
     .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
-
+        font-family: 'Source Sans Pro', Arial, sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
     }
     .subtitle {
         &.is-muted {
             color: $muted-grey;
+            font-size: 22px;
         }
     }
 }
 
 //Titles
 .title-wrapper {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
     .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
-
+        font-family: 'Source Sans Pro', Arial, sans-serif;
     }
     .subtitle {
         &.is-muted {
@@ -73,13 +74,14 @@ img.pushed-image {
         }
         .icon-box-title {
             color: $blue-grey;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             font-weight: 600;
         }
         .icon-box-text {
             color: $title-grey;
-            font-size: 1rem;
-            font-weight: 400;
+            font-size: 1.2rem;
+            font-weight: 300;
+            line-height: 1.5;
         }
     }
 }

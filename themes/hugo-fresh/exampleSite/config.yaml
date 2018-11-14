@@ -5,7 +5,7 @@ theme: hugo-fresh
 
 params:
   font:
-    name: "Open Sans"
+    name: "Source Sans Pro"
     sizes: [400,600]
   hero:
     # Main hero title

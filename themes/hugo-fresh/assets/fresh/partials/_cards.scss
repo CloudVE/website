@@ -12,11 +12,11 @@ Cards and Card content styles
     border-radius: 3px;
     margin: 0 auto;
     .card-title h4 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Source Sans Pro', Arial, sans-serif;
         padding-top: 25px;
-        font-size: 1.2rem;
-        font-weight: 600;
-        color: $blue-grey;
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $dark-grey;
     }
     .card-icon img {
         height: 120px;
@@ -24,6 +24,8 @@ Cards and Card content styles
     }
     .card-text {
         padding: 0 40px;
+        font-weight: 300;
+        line-height: 1.5;
         p {
             color: $muted-grey;
         }
